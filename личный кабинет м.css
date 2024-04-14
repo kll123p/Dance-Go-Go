@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    font-family: "Nunito", sans-serif;
+}
+
+.nav{
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.c{
+    padding-right: 5px;
+}
+
+/* Контейнер для шапки*/
+.container {
+    position: relative;
+    background-color: #DCD8D8;
+    width: 360px;
+}
+    
+/* Сделайте изображение адаптивным */
+.img {
+    position: relative;
+}
+    
+/* кнопка входа */
+.container .btnn {
+    position: absolute;
+    top: 60%;
+    left: 10%;;
+    background-color: #f826a1;
+    color: white;
+    border-color: #f826a1;
+    font-size: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+  
+/* текст на шапке */
+.tekst{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    text-transform: uppercase;
+    color: black;
+    font-size: 10px;
+}
+
+b{
+    font-size: 15px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    width: 360px;
+    margin-top: 2%;
+}
+
+.t{
+    font-size: 10px;
+    text-align: center;
+}
+
+
+.btn{
+    background-color: #f826a1;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;  
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 360px;
+    font-size: 15px;
+}
+
+.tt{
+    color: white;
+}
+
+/* Кнопка выпадающего списка */
+.dropbtn {
+    background-color:#f826a1;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Кнопка выпадающего меню при наведении и фокусировке */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #f826a1;
+  }
+  
+  /* Контейнер <div> - необходим для размещения выпадающего содержимого */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Выпадающее содержимое (скрыто по умолчанию) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f826a1;
+    min-width: 100px;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Ссылки внутри выпадающего списка */
+  .dropdown-content a {
+    color: black;
+    padding: 6px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Изменение цвета выпадающих ссылок при наведении курсора */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+  .show {display:block;}

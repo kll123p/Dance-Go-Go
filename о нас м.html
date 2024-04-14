@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance Go Go</title>
+    <link rel="stylesheet" href="о нас м.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <script>
+        /* Когда пользователь нажимает на кнопку,переключение между скрытием и отображением раскрывающегося содержимого */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        // Закройте выпадающее меню, если пользователь щелкает за его пределами
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="nav">
+        <div class="z">
+            <a href="главная м.html"><img src="img m/1.png"></a>
+        </div>
+        <div class="x">
+            Dance Go Go
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Меню</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="главная м.html">ГЛАВНАЯ</a>
+              <a href="о нас м.html">О НАС</a>
+              <a href="занятия м.html">ЗАНЯТИЯ</a>
+              <a href="отзывы м.html">ОТЗЫВЫ</a>
+              <a href="контакты м.html">КОНТАКТЫ</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p><img class="img" src="img m/3.png"></p>
+        <div class="tekst">
+            <b>О нашей школе танцев Go Go</b><br>
+            Dance Go Go приглашает вас на уроки go-go <br> в школе танцев в Перми!<br>
+            На уроках танцев гоу-гоу особый акцент <br> делается на танцевальной базе.
+        </div>
+        <form action="авторизация м.html" >
+          <button class="btnn"> Получить бесплатный урок</button>
+        </form>
+    </div>
+
+    <div class="content">
+        <div class="blok1">
+            <br><br>
+            <img src="img m/12.png"><br>
+            <b>1 этаж</b><br><br>
+            На первом этаже расположены уютная зона ожидания, отдел продаж, 
+            гардероб. К услугам посетителей раздевалки с душевыми кабинами, 
+            аквазона: детский, гидромассажный и плавательный бассейны, финская сауна.<br><br>
+            <img src="img m/13.png"><br>
+            <b>2 этаж</b><br><br>
+            Для наших самых взыскательных клиентов мы предлагаем отдельную зону 
+            повышенной комфортности, включающую танцевальный зал с оборудованием 
+            премиум класса, специальный комплекс, зону релакса, комфортабельные 
+            раздевалки с банными халатами, а также дэнс-бар, где можно приобрести 
+            напитки, легкие закуски и предтренировочные комплексы.<br><br>
+            <img src="img m/14.png"><br>
+            <b>3 этаж</b><br><br>
+            На данном этаже расположен танцевальный зал общей площадью более 1000м2 
+            с выделенными зонами для Body, Booty, Lasy's и Cross Fit Dance, зоной отдыха 
+            и многим другим. Также на этаже контролируется температура при помощи новейшего 
+            термального оборудования.<br><br>
+            <img src="img m/15.png"><br>
+            <b>4 этаж</b><br><br>
+            На четвертом этаже вы можете посетить танцевальный зал вместе со своим 
+            персональным тренером, три зала групповых программ, зал индивидуальных 
+            тренировок на большом оборудовании и CYCLE студию, оснащенную большим 
+            экраном с визуализацией 5D.<br><br>
+        </div>
+        <div class="blok2">
+            <div class="a">
+                <b>Делаем музыку видимой</b><br><br>
+                Dance Go Go — это школа, куда люди не просто приходят учиться танцевать, наша школа — это 
+                яркий мир, где занятия танцами — лишь связующая нить, которая объединяет ярких, энергичных 
+                и уникальных людей. Мы понимаем, что жизнь состоит не только из одних танцев, даже если мы 
+                и не разделяем свою жизни с движением.<br><br>
+                Мы все вместе катаемся на роликах, а зимой всей большой компанией летаем на лыжах и сноубордах, 
+                мы вместе выезжаем на пикники, дружно учимся скалолазанию и даже плаваем с аквалангом... Мы живем 
+                дружно и вместе радуемся активной жизни!<br><br>
+            </div>
+            <div class="s">
+                <img src="img m/16.png">
+            </div>
+        </div>
+        <div class="g">
+            <br><br>
+            <b>Галерея Go Go</b><br>
+            Здесь вы можете посмотреть на танцевальные занятия и наши залы<br><br>
+        </div>
+        <div class="r">
+            <div class="t">
+                <img src="img m/17.png">
+                <img src="img m/18.png">
+            </div>
+            <div class="t">
+                <img src="img m/19.png">
+                <img src="img m/20.png">
+            </div>
+            <div class="t">
+                <img src="img m/21.png">
+                <img src="img m/22.png">
+            </div>
+            <div class="t">
+                <img src="img m/23.png">
+                <img src="img m/24.png">
+            </div>
+            <div class="t">
+                <img src="img m/25.png">
+                <img src="img m/26.png">
+            </div>
+            <div class="t">
+                <img src="img m/27.png">
+                <img src="img m/28.png">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <br>
+        8 800 900 77 66<br>
+        Звонок по России бесплатный<br>
+        <img src="img m/v.png">
+        <img src="img m/t.png">
+        <img src="img m/p.png"><br><br>
+        ООО «Dance Go Go», <br>
+        г.Пермь, ул. Пушкина 107A <br><br>
+        <a class="tt" href="index.html">Компьютерная версия</a><br>
+        <a class="tt" href="главная п.html">Планшетная версия</a><br>
+    </footer>
+</body>
+</html>

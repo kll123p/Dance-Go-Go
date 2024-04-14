@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance Go Go</title>
+    <link rel="stylesheet" href="личный кабинет м.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <script>
+        /* Когда пользователь нажимает на кнопку,переключение между скрытием и отображением раскрывающегося содержимого */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        // Закройте выпадающее меню, если пользователь щелкает за его пределами
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="nav">
+        <div class="z">
+            <a href="главная м.html"><img src="img m/1.png"></a>
+        </div>
+        <div class="x">
+            Dance Go Go
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Меню</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="главная м.html">ГЛАВНАЯ</a>
+              <a href="о нас м.html">О НАС</a>
+              <a href="занятия м.html">ЗАНЯТИЯ</a>
+              <a href="отзывы м.html">ОТЗЫВЫ</a>
+              <a href="контакты м.html">КОНТАКТЫ</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p><img class="img" src="img m/3.png"></p>
+        <div class="tekst">
+            <b>Школа танцев Go GO в Перми</b><br> 
+            Dance Go Go приглашает вас на уроки go-go <br> в школе танцев в Перми!<br>
+            На уроках танцев гоу-гоу особый акцент <br> делается на танцевальной базе.
+        </div>
+        <form action="авторизация м.html" >
+          <button class="btnn"> Получить бесплатный урок</button>
+        </form>
+    </div>
+    <div class="content">
+        <div class="b">
+            Имя: Мария<br>
+            E-mail: mariya@mail.ru<br>
+            Номер телефона: <br>
+            8 992 240 46 95<br>
+            Пароль: 12345<br><br>
+            <a href="личный кабинет м.html">Редактировать</a><br><br>
+            <a href="личный кабинет м.html">Мои  Занятия</a> <br>
+            <a href="личный кабинет м.html">Пройденные занятия</a><br>
+            <a href="личный кабинет м.html">Чат с менеджером</a><br><br>
+            <a href="главная м.html">Выйти</a><br><br>
+        </div>
+        <div class="t">
+            <img src="img m/43.png"><br>
+            Добавить фото
+        </div>
+    </div>
+    <footer>
+        <br>
+        8 800 900 77 66<br>
+        Звонок по России бесплатный<br>
+        <a href=" https://vk.com/"><img src="img m/v.png"></a>
+        <a href="https://web.telegram.org/"><img src="img m/t.png"></a>
+        <a href="https://ru.pinterest.com/"><img src="img m/p.png"></a> <br><br>
+        ООО «Dance Go Go», <br>
+        г.Пермь, ул. Пушкина 107A <br><br>
+        <a class="tt" href="index.html">Компьютерная версия</a><br>
+        <a class="tt" href="главная п.html">Планшетная версия</a><br>
+    </footer>
+</body>
+</html>

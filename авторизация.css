@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    font-family: "Nunito", sans-serif;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.s{
+    display:flex;
+    justify-content: space-around;
+}
+
+.btn{
+    background-color: #f826a1;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;  
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.span{
+    font-size: 20px;
+    width: 60%;
+    padding-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+}
+
+.img{
+    position: absolute;
+}
+
+p{
+    text-align: center;
+}
+
+
+/* Контейнер для шапки*/
+.container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #DCD8D8;
+    
+}
+    
+/* Сделайте изображение адаптивным */
+.img {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+    
+/* кнопка входа */
+.container .btnn {
+    position: absolute;
+    top: 70%;
+    left: 20%;;
+    background-color: #f826a1;
+    color: white;
+    border-color: #f826a1;
+    font-size: 25px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+  
+/* текст на шапке */
+.tekst{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    text-transform: uppercase;
+    color: black;
+    font-size: 25px;
+}
+
+span{
+    font-size: 30px;
+}
+
+.content{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-top: 10%;
+}
+
+p{
+    text-align: center;
+}
+
+b{
+    font-size: 30px;
+}
+
+.table{
+    color: black;
+    width: 100%;
+    font-size: 25px;
+}
+
+.ttt{
+    color: black;
+    font-size: 15px;
+    padding-left: 18%;
+}
+
+.btnt {
+    background-color: #f826a1;
+    color: white;
+    border-color: #f826a1;
+    font-size: 22px;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    align-items:center;
+    margin-left: 17%;
+}
+  
+input[type=text] {
+    width: 50%;
+    height: 35px;
+    border: 2px solid #f826a1;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #f826a1;
+    color: white;
+    border-color: #f826a1;
+    font-size: 22px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    align-items:center;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 1%;
+}
+
+.xx{
+    text-align: center;
+}
+
+.tt{
+    color: white;
+}
+
+
+
